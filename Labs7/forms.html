@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form action="registration.py" method="get">
+        <fieldset>
+            <legend>Personal data</legend>
+            <label for="Petar">Name:</label>
+            <input type="text" id="Petar" name="Petar" placeholder="First Name"><br>
+            <label for="Spasov">Name:</label>
+            <input type="text" id="Spasov" name="Spasov" placeholder="Last Name"><br>
+            <label>Gender:</label>
+            <label>male:<input type="radio" name="gender" value="male"></label>
+            <label>female:<input type="radio" name="gender" value="female"></label>
+        </fieldset>
+        <label for="Review">Review:</label><br>
+        <textarea name="Review" id="Review" cols="30" rows="4" placeholder="Writhe Review"></textarea><br>
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
