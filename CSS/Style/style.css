@@ -1,0 +1,12 @@
+body {background-image: url('./images/crow.jpg')}
+body {background-repeat: no-repeat;}
+body {background-size: cover;}
+h1 {position: relative;left: 90px;}
+h1 {font-weight: bold;}
+h1 {color: rgb(197, 158, 3);}
+h2 {position: relative;left: 120px;}
+h2 {font-weight: bold;}
+h2 {color: rgb(11, 11, 11);}
+p {text-align: left;}
+p {color: antiquewhite;}
+p {width: 30em;}
