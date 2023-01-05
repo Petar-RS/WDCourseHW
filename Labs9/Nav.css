@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+}
+nav li{
+    display: inline-block;
+    width: 32.1%;
+    border:5px solid rgb(150, 0, 0);
+    background-color:rgb(203, 0, 0);
+    text-align: center;
+}
+a{
+    display: block;
+    padding: 1em;
+    width: 100%;
+    color: aliceblue;
+    text-decoration: none;
+    background-color:rgb(203, 0, 0);
+}
